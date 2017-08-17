@@ -33,9 +33,44 @@
         <div id=unanswered></div>
         <div id='startOverBtn'></div>
     </div>
+
     <script src="https://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <!-- Starting Modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">You've arrived! <strong>Neo</strong> says: </h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">"I know you're out there. I can feel you now. I know that you're afraid... you're afraid of us. You're afraid of change. I don't know the future. I didn't come here to tell you how this is going to end. I came here to tell you how it's going to begin. I'm going to hang up this phone, and then I'm going to show these people what you don't want them to see. I'm going to show them a world without you. A world without rules and controls, without borders or boundaries. A world where anything is possible. Where we go from there is a choice I leave to you."
+                </div>
+                 <div class="modal-footer">
+    <!--     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary block-center" data-dismiss="modal">Enter the Matrix!</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <script type="text/javascript"> 
+
+// $(document).ready(function($) {
+//   $("#startBtn").on("", "a", function(event) {
+//     event.preventDefault();
+//     jQuery.noConflict();
+//     $('#myModal').modal('show');
+
+//   });
+// });
+// $(window).on('load',function(){
+//     $('#myModal').html('show');
+// });
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 

@@ -1,3 +1,14 @@
+    // STAGE 1: Initial Setup/ Display
+// $(document).ready(function() {
+//     reset();
+    // gets the link for the theme song to be played in the background
+     var musicElement = document.createElement('audio');
+     musicElement.autoplay = true;
+     musicElement.loop = true;
+     musicElement.setAttribute('src', '../assets/audio/matrix.mp3');
+
+     //Establish  TriviaQuestions and thei Boolean values (the answers)
+
 var triviaQuestions = [{
 	question: "What is Neo's real name?",
 	answerList: ["John P Black", "Timothy J Washington", "James L Burns", "Thomas A Anderson"],
@@ -70,6 +81,8 @@ var messages = {
 	endTime: "Out of time!",
 	finished: "Alright! Let's see how well you did."
 }
+
+
 
 $('#startBtn').on('click', function(){
 	$(this).hide();

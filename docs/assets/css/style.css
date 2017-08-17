@@ -52,6 +52,13 @@ h2, #message, #finalMessage{
 	color: white;
 	padding: 10px;
 }
+.modal-body {
+	color: black;
+}
+
+.modal-header {
+	color: black;
+}
 
 #gif{
 	margin: 30px;
