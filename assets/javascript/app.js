@@ -5,7 +5,7 @@
      var musicElement = document.createElement('audio');
      musicElement.autoplay = true;
      musicElement.loop = true;
-     musicElement.setAttribute('src', '../assets/audio/matrix.mp3');
+     musicElement.setAttribute('src', 'assets/audio/matrix.mp3');
 
      //Establish  TriviaQuestions and thei Boolean values (the answers)
 
